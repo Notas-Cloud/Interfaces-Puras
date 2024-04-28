@@ -1,0 +1,39 @@
+<body>
+  <div class="row .payment-dialog-row">
+    <div class="col-12 col-md-4 offset-md-4">
+        <div class="card credit-card-box">
+            <div class="card-header" id="IMG">
+                <h3><span class="panel-title-text">Datos de la Tarjeta </span><img class="img-fluid panel-title-image"></h3>
+            </div>
+            <div class="card-body">
+                <form id="payment-form">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group mb-3"><label class="form-label" for="cardNumber">Numero de Tarjeta </label>
+                                <div class="input-group"><input class="form-control" type="tel" id="cardNumber" required="" placeholder="Ingrese Numero Valido"><span class="input-group-text"><i class="fa fa-credit-card"></i></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="form-group mb-3"><label class="form-label" for="cardExpiry"><span>Fecha Expiracion</span></label><input class="form-control" type="tel" id="cardExpiry" required="" placeholder="MM / YY"></div>
+                        </div>
+                        <div class="col-5 pull-right">
+                            <div class="form-group mb-3"><label class="form-label" for="cardCVC">Codigo CVV</label><input class="form-control" type="tel" id="cardCVC" required="" placeholder="CVV"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group mb-3"><label class="form-label" for="couponCode">Codigo Promocional</label><input class="form-control" type="text" id="couponCode" placeholder="XXXX-XXXX-XXXX-XXXX"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12"><button class="btn btn-success btn-lg d-block w-100" type="submit">Start Subscription</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+
